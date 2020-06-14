@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 1</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 	<script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=DM+Sans:700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<nav class="navbar text-uppercase fixed-top navi p-4">
+    <div class="container">
+      	<a class="navibrand text-decoration-none" href="#start">Start Bootstrap</a>
+		<a class="btn navbtn" data-toggle="collapse" href=".collapse">Menu
+			<span>
+				&nbsp;<i class="fa fa-bars" aria-hidden="true"></i>
+			</span>
+		</a>
+
+		<div class="navbar ml-auto navigroup1">
+            <a class="navilink text-decoration-none mr-4" href="#portfolio">Portfolio</a>
+            <a class="navilink text-decoration-none mr-4" href="#about">About</a>
+            <a class="navilink text-decoration-none mr-4" href="#contact">Contact</a>
+      	</div>
+
+      	<div class="navigroup2 collapse">
+            <a class="navilink text-decoration-none" href="#portfolio">Portfolio</a>
+            <a class="navilink text-decoration-none" href="#about">About</a>
+            <a class="navilink text-decoration-none" href="#contact">Contact</a>
+      	</div>
+    </div>
+</nav>
+
+<div class="container-fluid mt-5 pt-5 banner" id="start">
+	<div class="row mt-5 pt-5">
+		<div class="col text-center">
+			<img class="logo ml-auto mr-auto mb-5" src="images/avataaars.svg" alt="logo">
+			<p class="header">START BOOTSTRAP</p>
+			<p class="starw"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+				</p>
+			<p class="subhead mb-5">Graphic Artist - Web Designer - Illustrator
+			</p>
+		</div>
+	</div>
+</div>
+<div class="container-fluid pt-5 text-center pb-5" id="portfolio">
+	<p class="header2 mt-5">PORTFOLIO</p>
+	<p class="starb"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md holder">
+				<div class="overlay rounded p-5" data-toggle="modal" data-target=".modal1">
+					<p class="plus"><i class="fa fa-plus" aria-hidden="true"></i></p>
+				</div>
+				<img class="img-fluid pic" src="images/cabin.png" alt="cabin">
+			</div>
+			<div class="col-md holder">
+				<div class="overlay rounded p-5" data-toggle="modal" data-target=".modal2">
+					<p class="plus"><i class="fa fa-plus" aria-hidden="true"></i></p>
+				</div>
+				<img class="img-fluid pic" src="images/cake.png" alt="cake">
+			</div>
+			<div class="col-md holder">
+				<div class="overlay rounded p-5" data-toggle="modal" data-target=".modal3">
+					<p class="plus"><i class="fa fa-plus" aria-hidden="true"></i></p>
+				</div>
+				<img class="img-fluid pic" src="images/circus.png" alt="circus">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 holder">
+				<div class="overlay rounded p-5" data-toggle="modal" data-target=".modal4">
+					<p class="plus"><i class="fa fa-plus" aria-hidden="true"></i></p>
+				</div>
+				<img class="img-fluid pic" src="images/game.png" alt="game">
+			</div>
+			<div class="col-md-4 holder">
+				<div class="overlay rounded p-5" data-toggle="modal" data-target=".modal5">
+					<p class="plus"><i class="fa fa-plus" aria-hidden="true"></i></p>
+				</div>
+				<img class="img-fluid pic" src="images/safe.png" alt="safe">
+			</div>
+			<div class="col-md-4 holder">
+				<div class="overlay rounded p-5" data-toggle="modal" data-target=".modal6">
+					<p class="plus"><i class="fa fa-plus" aria-hidden="true"></i></p>
+				</div>
+				<img class="img-fluid pic" src="images/submarine.png" alt="submarine">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modals">
+	<div class="modal fade modal1" >
+  		<div class="modal-dialog modal-xl">
+    		<div class="modal-content text-center">
+      			<button type="button" class="close header text-success ml-auto mr-4 mt-3" 
+      			data-dismiss="modal">
+          				<span>&times;</span>
+        		</button>
+        		<p class="header2 mt-2">LOG CABIN</p>
+				<p class="starb"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+				<div class="col-8 ml-auto mr-auto mb-5">
+					<img class="img-fluid rounded" src="images/cabin.png" alt="cabin">
+					<p class="justify-text-center mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+					<button class="btn btn-success" href="#" data-dismiss="modal">
+                  		<span>&times;</span>
+                  		Close Window
+                	</button>
+				</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="modal fade modal2" >
+  		<div class="modal-dialog modal-xl">
+    		<div class="modal-content text-center">
+      			<button type="button" class="close header text-success ml-auto mr-4 mt-3" 
+      			data-dismiss="modal">
+          				<span>&times;</span>
+        		</button>
+        		<p class="header2 mt-2">TASTY CAKE</p>
+				<p class="starb"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+				<div class="col-8 ml-auto mr-auto mb-5">
+					<img class="img-fluid rounded" src="images/cake.png" alt="cake">
+					<p class="justify-text-center mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+					<button class="btn btn-success" href="#" data-dismiss="modal">
+                  		<span>&times;</span>
+                  		Close Window
+                	</button>
+				</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="modal fade modal3" >
+  		<div class="modal-dialog modal-xl">
+    		<div class="modal-content text-center">
+      			<button type="button" class="close header text-success ml-auto mr-4 mt-3" 
+      			data-dismiss="modal">
+          				<span>&times;</span>
+        		</button>
+        		<p class="header2 mt-2">CIRCUS TENT</p>
+				<p class="starb"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+				<div class="col-8 ml-auto mr-auto mb-5">
+					<img class="img-fluid rounded" src="images/circus.png" alt="circus">
+					<p class="justify-text-center mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+					<button class="btn btn-success" href="#" data-dismiss="modal">
+                  		<span>&times;</span>
+                  		Close Window
+                	</button>
+				</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="modal fade modal4" >
+  		<div class="modal-dialog modal-xl">
+    		<div class="modal-content text-center">
+      			<button type="button" class="close header text-success ml-auto mr-4 mt-3" 
+      			data-dismiss="modal">
+          				<span>&times;</span>
+        		</button>
+        		<p class="header2 mt-2">CONTROLLER</p>
+				<p class="starb"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+				<div class="col-8 ml-auto mr-auto mb-5">
+					<img class="img-fluid rounded" src="images/game.png" alt="game">
+					<p class="justify-text-center mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+					<button class="btn btn-success" href="#" data-dismiss="modal">
+                  		<span>&times;</span>
+                  		Close Window
+                	</button>
+				</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="modal fade modal5" >
+  		<div class="modal-dialog modal-xl">
+    		<div class="modal-content text-center">
+      			<button type="button" class="close header text-success ml-auto mr-4 mt-3" 
+      			data-dismiss="modal">
+          				<span>&times;</span>
+        		</button>
+        		<p class="header2 mt-2">LOCKED SAFE</p>
+				<p class="starb"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+				<div class="col-8 ml-auto mr-auto mb-5">
+					<img class="img-fluid rounded" src="images/safe.png" alt="safe">
+					<p class="justify-text-center mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+					<button class="btn btn-success" href="#" data-dismiss="modal">
+                  		<span>&times;</span>
+                  		Close Window
+                	</button>
+				</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="modal fade modal6" >
+  		<div class="modal-dialog modal-xl">
+    		<div class="modal-content text-center">
+      			<button type="button" class="close header text-success ml-auto mr-4 mt-3" 
+      			data-dismiss="modal">
+          				<span>&times;</span>
+        		</button>
+        		<p class="header2 mt-2">SUBMARINE</p>
+				<p class="starb"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+				<div class="col-8 ml-auto mr-auto mb-5">
+					<img class="img-fluid rounded" src="images/submarine.png" alt="submarine">
+					<p class="justify-text-center mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+					<button class="btn btn-success" href="#" data-dismiss="modal">
+                  		<span>&times;</span>
+                  		Close Window
+                	</button>
+				</div>
+    		</div>
+  		</div>
+	</div>
+</div>
+
+<div class="container-fluid pt-5 text-center pb-5" id="about">
+	<p class="header3 mt-5">ABOUT</p>
+	<p class="starw">
+		<i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</p>
+	<div class="row justify-content-center m-3">
+		<div class="col-md-3">
+			<p class="text-light justify-text-center subhead2">
+				Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+			</p>
+		</div>
+		<div class="col-md-3 text-light">
+			<p class="text-light justify-text-center subhead2">
+				You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+			</p>
+		</div>
+	</div>
+	<div>
+		<a class="btn btn-lg btn-outline-light" href="#">
+          <i class="fa fa-download mr-2"></i>
+          Free Download!
+        </a>
+    </div>
+</div>
+
+<div class="container-fluid pt-5 text-center pb-5" id="contact">
+	<p class="header2 mt-5">CONTACT</p>
+	<p class="starb">
+		<i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</p>
+	<div class="row mt-3 mb-3">
+        <div class="col-md-7 ml-auto mr-auto">
+        	<form>
+        		<div class="form-group">
+   	 				<input type="text" class=" finput" placeholder="Name">
+  				</div>
+  				<div class="form-group">
+   	 				<input type="text" class=" finput" placeholder="Email Address">
+  				</div>
+  				<div class="form-group">
+   	 				<input type="text" class=" finput" placeholder="Phone Number">
+  				</div>
+  				<div class="form-group">
+   	 				<textarea class=" finput" placeholder="Message"></textarea>
+  				</div>
+  				<div class="form-group text-left">
+              		<button type="submit" class="btn btn-success btn-lg">Send</button>
+           		</div>
+        	</form>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="extra">
+	<div class="row p-5">
+		<div class="col-md-4 text-center">
+				<h3 class="text-light mb-4 mt-4">LOCATION</h3>
+          		<p class="subhead2 mb-4">2215 John Daniel Drive
+            	<br>Clark, MO 65243</p>
+		</div>
+
+		<div class="col-md-4 text-center">
+				<h3 class="text-light mb-4 mt-4">AROUND THE WEB</h3>
+				<p class="mb-4">
+          			<a class="btn btn-outline-light social" href="#">
+            			<i class="fa fa-facebook" aria-hidden="true"></i>
+          			</a>
+          			<a class="btn btn-outline-light social" href="#">
+            			<i class="fa fa-twitter" aria-hidden="true"></i>
+          			</a>
+         			<a class="btn btn-outline-light social" href="#">
+           			 	<i class="fa fa-linkedin" aria-hidden="true"></i>
+          			</a>
+          			<a class="btn btn-outline-light social" href="#">
+            			<i class="fa fa-dribbble" aria-hidden="true"></i>
+          			</a>
+          		</p>
+		</div>
+
+		<div class="col-md-4 text-center">
+				<h3 class="text-light mb-4 mt-4">ABOUT FREELANCER</h3>
+          		<p class="subhead2 mb-4">Freelance is a free to use, MIT licensed Bootstrap theme created by
+            	<a href="#" class="text-decoration-none text-success">Start Bootstrap</a>.
+            	</p>
+				</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid p-4" id="footer">
+	<div class="container text-center text-light">
+      <small>Copyright &copy; Your Website 2019</small>
+    </div>
+</div>
+</body>
+</html>

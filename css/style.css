@@ -1,0 +1,171 @@
+body{
+	margin: 0px;
+	user-select: none;
+	scroll-behavior: smooth;
+}
+.navi{
+	background-color: #2C3E50;
+}
+.navibrand{
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+.navibrand:hover{
+	color: white;
+}
+.navilink{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color:white;
+}
+.navilink:hover{
+	color: #1BB798;
+}
+.navbtn{
+	display: none;
+	background-color: #1BB798;
+	color: white;
+}
+.banner{
+	background-color: #1ABC9C;
+}
+.header{
+	font-family: 'DM Sans', sans-serif;
+	color: white;
+	font-size: 64px;
+	line-height: 64px;
+}
+.starw{
+	color: white;
+	font-size: 48px;
+	line-height: 48px;
+}
+.starb{
+	color:#2C3E50;
+	font-size: 48px;
+	line-height: 48px;
+}
+.logo{
+	height: 250px;
+	width: 250px;
+}
+.subhead{
+	font-family: 'DM Sans', sans-serif;
+	color: white;
+	font-size: 24px;
+}
+
+.header2{
+	font-family: 'DM Sans', sans-serif;
+	color:#2C3E50;
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.holder{
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.pic{
+	border-radius: 10px;
+}
+.overlay{
+	position: absolute;
+	z-index: 1;
+	display: none;
+	background-color: rgba(27, 183, 152,0.7);
+	top: 50%;
+	left: 50%;
+	height: 85%;
+	width: 80%;
+	transform: translate(-50%,-50%);
+}
+.holder:hover .overlay{
+	display: block;
+}
+
+.plus{
+	color: white;
+	font-size: 70px;
+}
+#about{
+	background-color: #1BB798;
+}
+.header3{
+	font-family: 'DM Sans', sans-serif;
+	color:white;
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.subhead2{
+	font-family: 'DM Sans', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+.finput{
+	font-size: 25px;
+	outline: none;
+	width: 100%;
+	border-bottom: 1px solid gray;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 0px;
+	padding:30px 5px;
+}
+
+#extra{
+	background-color: #2C3E50;
+}
+
+.social{
+	font-size: 24px;
+	padding: 5px;
+	border:2px solid white;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+}
+
+#footer{
+	background-color: #1A252F;
+}
+
+@media screen and (max-width: 600px){
+	.navigroup1{
+		display: none;
+	}
+	.navigroup2{
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	.navilink{
+		width: 100%;
+		display: block;
+		font-size: 22px;
+		margin-top: 5px;
+		padding: 5px;
+	}
+	.navi{
+		padding: 0px;
+	}
+	.navbtn{
+		display: flex;
+	}
+	.header{
+		font-size: 48px;
+	}
+	.subhead{
+		font-size: 20px;
+	}
+	.plus{
+	font-size: 100px;
+	}
+}
